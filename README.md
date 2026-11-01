@@ -177,4 +177,3 @@ Through this project, practical knowledge was gained in:
 
 ---
 
-⭐ If you find this project useful, consider giving this repository a star!
