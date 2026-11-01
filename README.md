@@ -1,18 +1,18 @@
 # AI-Based-Network-Usage-Pattern-Analysis
 VLAN-based network designed using Cisco Packet Tracer featuring Student Staff Server and Attacker networks Implements VLAN segmentation, Router-on-a-Stick inter-VLAN routing, trunking, DNS and HTTP services, and network connectivity testing. Uses Simulation Mode to monitor packet flow and explores ACL-based security to restrict unauthorized access.
-# 🔐 Campus Network Security Using Cisco Packet Tracer
+#  Campus Network Security Using Cisco Packet Tracer
 
 <p align="center">
   <b>A Secure, VLAN-Based Campus Network with Inter-VLAN Routing and Access Control</b>
 </p>
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates the design and implementation of a secure campus network using Cisco Packet Tracer. The network connects multiple departments, servers, and end devices through VLAN segmentation, inter-VLAN routing, and Access Control Lists (ACLs).
 
 The main objective is to create a structured network infrastructure that enables communication between authorized departments while restricting unauthorized access to sensitive server resources.
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 - Design a realistic campus network topology.
 - Divide the network into separate departmental VLANs.
@@ -23,7 +23,7 @@ The main objective is to create a structured network infrastructure that enables
 - Connect two routers to simulate communication between different networks.
 - Test connectivity and verify security restrictions.
 
-## 🛠️ Technologies & Tools
+##  Technologies & Tools
 
 | Technology | Purpose |
 |---|---|
@@ -36,7 +36,7 @@ The main objective is to create a structured network infrastructure that enables
 | STP | Loop prevention |
 | ICMP / Ping | Connectivity testing |
 
-## 🏗️ Network Architecture
+##  Network Architecture
 
 The network consists of the following components:
 
@@ -49,7 +49,7 @@ The network consists of the following components:
 - **Server A and Server B:** Centralized server resources.
 - **Attacker PC:** External device used to demonstrate network security.
 
-## 🌐 VLAN Configuration
+##  VLAN Configuration
 
 | VLAN ID | VLAN Name | Network Address | Gateway |
 |---|---|---|---|
@@ -57,7 +57,7 @@ The network consists of the following components:
 | 20 | Staff | 192.168.20.0/24 | 192.168.20.1 |
 | 30 | Servers | 192.168.30.0/24 | 192.168.30.1 |
 
-## 🔢 IP Addressing Scheme
+##  IP Addressing Scheme
 
 | Device | IP Address |
 |---|---|
@@ -73,7 +73,7 @@ The network consists of the following components:
 
 Subnet Mask: `255.255.255.0`
 
-## ⚙️ Key Implementations
+##  Key Implementations
 
 ### 1. VLAN Configuration
 Created three separate VLANs to isolate Students, Staff, and Servers.
@@ -93,7 +93,7 @@ Used dynamic MAC address tables to verify device connectivity and identify conne
 ### 6. Access Control Lists (ACL)
 Implemented an extended ACL to deny traffic from the attacker IP address `203.0.113.10` to the protected server network `192.168.30.0/24`, while permitting other IP traffic.
 
-## 🧪 Testing & Verification
+##  Testing & Verification
 
 The following commands were used to verify network configuration:
 
@@ -116,7 +116,7 @@ The following commands were used to verify network configuration:
 - `ping 192.168.30.10`
 - `ping 203.0.113.1`
 
-## 🔒 Security Features
+##  Security Features
 
 - Department-wise network isolation.
 - Controlled communication between VLANs.
@@ -124,7 +124,7 @@ The following commands were used to verify network configuration:
 - Restricted attacker access to the server network.
 - Centralized network routing and management.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 Campus-Network-Security/
@@ -145,7 +145,7 @@ Campus-Network-Security/
     └── Network-Configuration.txt
 ```
 
-## 🎓 Learning Outcomes
+##  Learning Outcomes
 
 Through this project, practical knowledge was gained in:
 
@@ -157,7 +157,7 @@ Through this project, practical knowledge was gained in:
 - Network security using ACLs.
 - Troubleshooting and connectivity verification.
 
-## 🚀 Future Scope
+##  Future Scope
 
 - Implement DHCP for automatic IP allocation.
 - Configure firewall-based security.
@@ -165,7 +165,7 @@ Through this project, practical knowledge was gained in:
 - Add network monitoring and logging.
 - Expand the topology with additional departments.
 
-## 👩‍💻 Project Information
+##  Project Information
 
 **Project Name:** Campus Network Security Using Cisco Packet Tracer
 
